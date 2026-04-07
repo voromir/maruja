@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tasca-Colmado Maruja</title>
+    <meta
+      name="description"
+      content="Mock landing page rebuilt as a clean starting point for Tasca-Colmado Maruja."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Manrope:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="site-header" id="top">
+      <div class="container nav-shell">
+        <nav class="site-nav" aria-label="Principal">
+          <div class="nav-group nav-group-left">
+            <a href="#experience">Experiencia</a>
+            <a href="#menu-highlights">Sabores</a>
+          </div>
+
+          <a class="brand" href="#top" aria-label="Tasca-Colmado Maruja home">
+            <img
+              src="./logo-maruja.png"
+              alt="Tasca-Colmado Maruja"
+            />
+          </a>
+
+          <div class="nav-group nav-group-right">
+            <a href="#visit">Visitanos</a>
+            <a class="button button-outline" href="#reservation">Reserva</a>
+          </div>
+
+          <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="mobile-menu">
+            Menu
+          </button>
+        </nav>
+
+        <div class="mobile-menu" id="mobile-menu">
+          <a href="#experience">Experiencia</a>
+          <a href="#menu-highlights">Sabores</a>
+          <a href="#visit">Visitanos</a>
+          <a href="#reservation">Reserva</a>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="hero-backdrop"></div>
+        <div class="hero-glow hero-glow-left"></div>
+        <div class="hero-glow hero-glow-right"></div>
+
+        <div class="container hero-content">
+          <p class="eyebrow">Welcome to</p>
+          <img
+            class="hero-wordmark"
+            src="./logo-maruja.png"
+            alt="Tasca-Colmado Maruja"
+          />
+          <p class="hero-copy">
+            Una base visual elegante para una cafeteria mediterranea con brunch, cafe y cenas.
+            Todo queda listo para que sustituyas el contenido por el tuyo.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-solid" href="#reservation">Reservar</a>
+            <a class="button button-ghost" href="#menu-highlights">Explorar</a>
+          </div>
+        </div>
+
+        <a class="scroll-indicator" href="#ticker" aria-label="Scroll to next section">
+          <span>Scroll</span>
+          <span class="scroll-line"></span>
+        </a>
+      </section>
+
+      <section class="ticker" id="ticker" aria-label="Highlights">
+        <div class="ticker-track">
+          <span>CAFE</span>
+          <img src="./logo-maruja.png" alt="" />
+          <span>BRUNCH</span>
+          <img src="./logo-maruja.png" alt="" />
+          <span>VINOS</span>
+          <img src="./logo-maruja.png" alt="" />
+          <span>TAPAS</span>
+          <img src="./logo-maruja.png" alt="" />
+          <span>CAFE</span>
+          <img src="./logo-maruja.png" alt="" />
+          <span>BRUNCH</span>
+          <img src="./logo-maruja.png" alt="" />
+          <span>VINOS</span>
+          <img src="./logo-maruja.png" alt="" />
+          <span>TAPAS</span>
+          <img src="./logo-maruja.png" alt="" />
+        </div>
+      </section>
+
+      <section class="section section-split" id="experience">
+        <div class="container split-layout">
+          <div class="section-copy">
+            <p class="eyebrow">Atmosphere</p>
+            <h2>Mas que una cafeteria</h2>
+            <p>
+              Este mock recrea la estructura general del original: hero amplia, secciones editoriales,
+              bloques fotograficos, reserva y footer completo. El texto es temporal para que puedas
+              reemplazarlo sin tocar la composicion.
+            </p>
+            <p>
+              La direccion visual mezcla tonos oliva, crema y negro carbon con tipografia condensada
+              en titulares y ritmo editorial en las separaciones.
+            </p>
+          </div>
+
+          <div class="image-stack">
+            <figure class="card-photo card-photo-large">
+              <img
+                src="./popa/POPA - Postureo & Papeo_files/coffee-art-B7zAMxH_.jpg"
+                alt="Coffee art"
+              />
+            </figure>
+            <figure class="card-photo card-photo-accent">
+              <img
+                src="./popa/POPA - Postureo & Papeo_files/friends-toast-C0TKzxMu.jpg"
+                alt="Friends toasting"
+              />
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-cream" id="menu-highlights">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Signature moments</p>
+            <h2>Sabores que enamoran</h2>
+            <p>
+              Tres bloques listos para personalizar con tus categorias principales, platos destacados o conceptos.
+            </p>
+          </div>
+
+          <div class="feature-grid">
+            <article class="feature-card">
+              <img
+                src="./popa/POPA - Postureo & Papeo_files/coffee-art-B7zAMxH_.jpg"
+                alt="Cafe de especialidad"
+              />
+              <div class="feature-body">
+                <p class="feature-index">01</p>
+                <h3>Cafe de especialidad</h3>
+                <p>Espacio ideal para presentar cafes de origen, desayunos de autor o una historia de marca.</p>
+              </div>
+            </article>
+
+            <article class="feature-card">
+              <img
+                src="./popa/POPA - Postureo & Papeo_files/hero-brunch-B3x5h-Sn.jpg"
+                alt="Brunch"
+              />
+              <div class="feature-body">
+                <p class="feature-index">02</p>
+                <h3>Brunch</h3>
+                <p>Tarjeta preparada para menu de brunch, platos icónicos, disponibilidad y enfoque visual.</p>
+              </div>
+            </article>
+
+            <article class="feature-card">
+              <img
+                src="./popa/POPA - Postureo & Papeo_files/wine-tapas-D6TyfgGL.jpg"
+                alt="Vinos y tapas"
+              />
+              <div class="feature-body">
+                <p class="feature-index">03</p>
+                <h3>Vinos y tapas</h3>
+                <p>Usa este bloque para cenas, tapeo, cocktail hour o cualquier concepto de sobremesa.</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-gallery">
+        <div class="container editorial-layout">
+          <div class="editorial-panel">
+            <p class="eyebrow">Flexible content</p>
+            <h2>Una plantilla lista para adaptar</h2>
+            <p>
+              La pagina esta separada en componentes visuales simples y sin dependencias. Puedes cambiar
+              textos, fotos, colores, horarios y enlaces directamente en los archivos base.
+            </p>
+            <a class="text-link" href="#reservation">Ir al formulario mock</a>
+          </div>
+
+          <div class="gallery-grid">
+            <figure><img src="./popa/POPA - Postureo & Papeo_files/hero-brunch-B3x5h-Sn.jpg" alt="Brunch table" /></figure>
+            <figure><img src="./popa/POPA - Postureo & Papeo_files/wine-tapas-D6TyfgGL.jpg" alt="Wine and tapas" /></figure>
+            <figure><img src="./popa/POPA - Postureo & Papeo_files/friends-toast-C0TKzxMu.jpg" alt="Toasting table" /></figure>
+            <figure><img src="./popa/POPA - Postureo & Papeo_files/coffee-art-B7zAMxH_.jpg" alt="Latte art" /></figure>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-cream" id="visit">
+        <div class="container visit-layout">
+          <div class="visit-copy">
+            <p class="eyebrow">Location</p>
+            <h2>Visitanos</h2>
+            <p>
+              Bloque de contacto y horarios inspirado en el original, pero simplificado para que puedas
+              sustituirlo rapidamente por tus datos reales.
+            </p>
+
+            <div class="visit-meta">
+              <div>
+                <h3>Direccion</h3>
+                <p>Plaça Pla de Sant Blai, 4<br />12530 Borriana, Castello</p>
+              </div>
+              <div>
+                <h3>Contacto</h3>
+                <p>622 57 27 56</p>
+              </div>
+              <div>
+                <h3>Horario</h3>
+                <p>
+                  Martes a jueves: 7 am - 10 pm<br />
+                  Viernes y sabado: 7 am - 12 am<br />
+                  Domingo: 7 am - 4 pm<br />
+                  Lunes: cerrado
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="map-mock" aria-label="Mock map">
+            <div class="map-card">
+              <p class="map-kicker">Map placeholder</p>
+              <h3>Ubicacion del local</h3>
+              <p>
+                Este bloque sustituye la integracion real del mapa. Puedes cambiarlo por Google Maps,
+                una imagen o un embed cuando toque conectar servicios.
+              </p>
+              <div class="map-grid">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section reservation-section" id="reservation">
+        <div class="container reservation-layout">
+          <div class="reservation-copy">
+            <p class="eyebrow">Frontend mock</p>
+            <h2>Reserva tu mesa</h2>
+            <p>
+              Formulario solo visual. No envia datos a ningun sistema y muestra una confirmacion local
+              para que tengas una base de trabajo inmediata.
+            </p>
+            <ul class="reservation-notes">
+              <li>Sin backend</li>
+              <li>Sin integracion externa</li>
+              <li>Listo para conectar mas adelante</li>
+            </ul>
+          </div>
+
+          <form class="reservation-form" id="reservation-form">
+            <div class="field-row">
+              <label>
+                <span>Nombre</span>
+                <input type="text" name="name" placeholder="Tu nombre" required />
+              </label>
+              <label>
+                <span>Telefono</span>
+                <input type="tel" name="phone" placeholder="+34 600 000 000" required />
+              </label>
+            </div>
+
+            <div class="field-row">
+              <label>
+                <span>Fecha</span>
+                <input type="date" name="date" required />
+              </label>
+              <label>
+                <span>Hora</span>
+                <input type="time" name="time" required />
+              </label>
+            </div>
+
+            <div class="field-row">
+              <label>
+                <span>Personas</span>
+                <select name="guests" required>
+                  <option value="">Selecciona</option>
+                  <option>2 personas</option>
+                  <option>4 personas</option>
+                  <option>6 personas</option>
+                  <option>8 personas</option>
+                </select>
+              </label>
+              <label>
+                <span>Zona</span>
+                <select name="area">
+                  <option>Interior</option>
+                  <option>Terraza</option>
+                  <option>Indiferente</option>
+                </select>
+              </label>
+            </div>
+
+            <label>
+              <span>Notas</span>
+              <textarea
+                name="notes"
+                rows="4"
+                placeholder="Alergias, carrito de bebe, celebracion, etc."
+              ></textarea>
+            </label>
+
+            <div class="form-actions">
+              <button class="button button-solid" type="submit">Enviar solicitud mock</button>
+              <p class="form-caption">La accion se procesa solo en el navegador.</p>
+            </div>
+
+            <p class="form-feedback" id="form-feedback" aria-live="polite"></p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <img
+            class="footer-logo"
+            src="./logo-maruja.png"
+            alt="Tasca-Colmado Maruja"
+          />
+          <p class="footer-copy">
+            Mock landing de Tasca-Colmado Maruja, preparada para que empieces a editar contenidos desde una base limpia.
+          </p>
+        </div>
+
+        <div>
+          <h3>Contacto</h3>
+          <p>Plaça Pla de Sant Blai, 4</p>
+          <p>12530 Borriana, Castello</p>
+          <p>622 57 27 56</p>
+        </div>
+
+        <div>
+          <h3>Navegacion</h3>
+          <a href="#experience">Experiencia</a>
+          <a href="#menu-highlights">Sabores</a>
+          <a href="#visit">Visitanos</a>
+          <a href="#reservation">Reserva</a>
+        </div>
+
+        <div>
+          <h3>Grupo</h3>
+          <img
+            class="group-mark"
+            src="./popa/POPA - Postureo & Papeo_files/grupo-darevents-C624CD_F.png"
+            alt="Grupo Darevents"
+          />
+        </div>
+      </div>
+    </footer>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
