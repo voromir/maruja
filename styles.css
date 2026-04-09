@@ -631,7 +631,8 @@ p {
 
 @media (max-width: 980px) {
   .site-nav {
-    grid-template-columns: auto minmax(220px, 320px) auto;
+    position: relative;
+    grid-template-columns: auto 1fr auto;
     min-height: 124px;
   }
 
@@ -640,12 +641,18 @@ p {
   }
 
   .brand {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
     justify-self: center;
+    width: auto;
+    max-width: none;
   }
 
   .brand img {
     width: auto;
-    max-width: 100%;
+    max-width: none;
     height: calc(124px - 0.7rem);
   }
 
@@ -664,6 +671,8 @@ p {
     background: transparent;
     box-shadow: none;
     appearance: none;
+    position: relative;
+    z-index: 2;
   }
 
   .menu-toggle span {
